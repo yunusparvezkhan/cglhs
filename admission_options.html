@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Admission | Select type of addmission</title>
+    <link rel="stylesheet" href="css/admop.css">
+    <link rel="stylesheet" href="Icons\css\all.css">
+    <script src="Javascript/admop.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="whole-screen">
+          <div id="box">
+            <img src="Media/Logos/admissionop.png" id="admission_logo">
+            <h3 id="v-x"> Class V(5) to X(10)  :-  </h3>
+                <button class="btn-box btn1" onclick="runses1()"> <i class="fas fa-running"></i> <div id="text1"> Running Season </div> </button>
+                <button class="btn-box btn2" onclick="nextses1()"> <i class="fas fa-forward"></i> <div id="text1"> Next Season    </div> </button>
+
+
+                <h3 id="xi-xii"> Class XI(11) & XII(12)  :-  </h3>
+                    <button class="btn-box btn3" onclick="runses2()"> <i class="fas fa-running"></i> <div id="text1"> Running Season </div> </button>
+                    <button class="btn-box btn4" onclick="nextses2()"> <i class="fas fa-forward"></i> <div id="text1"> Next Season    </div> </button>
+            </div>
+  </div>
+
+
+            <div id="screen-cover"></div>
+              <div id="conformation">
+                <div id="containofcnfrm">
+                    <img src="Media/Logos/question.png" id="question"/>
+                      <h2 id="cnfrm-heading"> Are you sure to continue? </h2>
+
+                      <p class="msg msg1" id="msg1"> If you will continue then you will be redirected to the admission form page of class V(5) to X(10) for the
+                         running academic year (January 2020 to December 2020) </p>
+                         <p class="msg msg2" id="msg2"> If you will continue then you will be redirected to the admission form page of class V(5) to X(10) for the
+                            next academic year (January 2021 to December 2021) </p>
+                            <p class="msg msg3" id="msg3"> If you will continue then you will be redirected to the admission form page of class XI(11) & XII(12) for the
+                               running academic year (January 2020 to December 2020) </p>
+                               <p class="msg msg4" id="msg4"> If you will continue then you will be redirected to the admission form page of class XI(11) & XII(12) for the
+                                  next academic year (January 2021 to December 2021) </p>
+
+
+  <a href="Admission\Running_Season\five-to-ten\admission.html"><button type="button" id="btn01" class="btn01 btn0"> Continue </button></a>
+  <a href="Admission\Next_Season\five-to-ten\admission.html"><button type="button" id="btn02" class="btn02 btn0"> Continue </button></a>
+  <a href="Admission\Running_Season\eleven&twelve\admission.html"><button type="button" id="btn03" class="btn03 btn0"> Continue </button></a>
+  <a href="Admission\Next_Season\eleven&twelve\admission.html"><button type="button" id="btn04" class="btn04 btn0"> Continue </button></a>
+
+
+
+
+                         <button type="button" id="btn01i" onclick="cancel()"> Cancel </button>
+                         </div>
+                </div>
+
+
+
+  </body>
+</html>
