@@ -1,0 +1,524 @@
+body{
+  margin:0px;
+  padding:0px;
+  width:100%;
+  height:auto;
+  background: white;
+}
+
+.backgroundimg{
+  width:100%;
+  height:900px;
+  position: absolute;
+  left:50%;
+  transform:translate(-50%);
+  background-image: linear-gradient(rgba(0, 0, 0,0.3), rgba(0, 0, 0, 0.3)),url("../Media/Photos/Pic4.jpg");
+  background-size: cover;
+
+}
+
+.loginillustriator{
+  width:80%;
+  position: absolute;
+  top:10px;
+  left:15%;
+}
+
+.box{
+  display:inline-block;
+  width:435px;
+  height:700px;
+  position: absolute;
+  top:80px;
+  left:50%;
+  transform: translate(-50%);
+  background: #161616C7;
+  border-radius: 30px;
+}
+
+.profilepic{
+  width:22%;
+  position: absolute;
+  top:-50px;
+  left:39%;
+}
+
+.boxheading{
+  font-size: 40px;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  top:30px;
+  left:33%;
+  font-family: cursive;
+}
+
+.button-box{
+  width:80%;
+  height:40px;
+  margin:;
+  position: absolute;
+  top:140px;
+  left: 10%;
+  box-shadow: 0 0 20px 9px white;
+  border-radius: 30px;
+}
+
+
+.toggle-btn{
+  padding:10px;
+  cursor: pointer;
+  background:transparent;
+  border:none;
+  outline:none;
+  position: relative;
+  top: 3px;
+  color:white;
+
+}
+
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width:115px;
+  height:100%;
+  background: linear-gradient(to right, red, orange);
+  border-radius: 30px;
+  transition: .5s;
+}
+
+
+
+
+
+/*  form styling starts from here */
+
+
+.input{
+  width:80%;
+  height:40px;
+  background: transparent;
+  border: 2px solid green;
+  border-radius: 30px;
+  outline:none;
+  font-size:17px;
+  text-align: center;
+  color:white;
+
+}
+
+
+
+
+.userid{
+  position: absolute;
+  top:270px;
+  left:10%;
+}
+
+
+.password{
+  position: absolute;
+  top:340px;
+  left:10%;
+}
+
+
+
+.submit-btn{
+  display: inline-block;
+  padding: 0px;
+  margin-top:0px;
+  position: absolute;
+  top:450px;
+  left:32.5%;
+  width: 35%;
+  height:40px;
+  background: #03841A;
+  border:2px solid #E30989;
+  border-radius: 30px;
+  font-size: 15px;
+  font-family: cursive;
+  color:white;
+  outline:none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.submit-btn:hover{
+  margin-top: 10px;
+  font-size: 23px;
+  background: linear-gradient(to left,#409D58,#01B204);
+}
+
+.forgotpassword{
+  position: absolute;
+  top:400px;
+  left:15%;
+  color:skyblue;
+  font-family: cursive;
+  font-size: 13px;
+  cursor: help;
+  outline: none;
+}
+
+
+
+
+.newac{
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top:550px;
+  left:85px;
+  font-family: cursive;
+  font-weight: lighter;
+}
+
+.btm-btn{
+  display:inline-block;
+  width:170px;
+  height:35px;
+  padding:0px;
+  margin:10px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  color:white;
+}
+
+
+
+.createac{
+  position: absolute;
+  top:600px;
+  left:30px;
+  background: #3EB8ED;
+  transition: 0.3s;
+  outline: none;
+}
+
+.createac:hover{
+  background: linear-gradient(to right,blue,skyblue);
+  margin-top:5px;
+  font-size: 17px;
+}
+
+.newadm{
+  position: absolute;
+  top:600px;
+  right:30px;
+  background: #A532E7;
+  transition: 0.3s;
+  outline: none;
+}
+
+.newadm:hover{
+  background: linear-gradient(to right, #E87CFF, #8D04A3 );
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+
+
+
+
+/* footer styling starts from here */
+
+
+
+footer{
+  width:100%;
+  height:250px;
+  background: #06304E;
+  position: absolute;
+  top:900px;
+}
+
+
+
+
+
+
+.footerheading{
+  font-size: 90%;
+  font-weight: lighter;
+  font-family: kalam;
+  color:white;
+  position: absolute;
+  top:40px;
+  left:45px;
+  width:260px;
+  transition: 0.5s;
+}
+
+.footer-btn{
+  display: inline-block;
+  height:40px;
+  width:auto;
+  margin:5px 3px;
+  position: absolute;
+  top:5px;
+  left:380px;
+  background: transparent;
+  border:none;
+  transition: 0.2s;
+  cursor: pointer;
+  outline: none;
+  color:white;
+}
+
+.footer-btn:hover{
+  font-size: 15px;
+  color:#F3631A;
+  margin-top: 0px;
+}
+
+.btn-1{
+  position: absolute;
+  left: 30px;
+  width:60px;
+}
+
+
+.btn-2{
+  position: absolute;
+  left: 100px;
+  width:60px;
+}
+
+.btn-3{
+  position: absolute;
+  left: 170px;
+  width:90px;
+}
+
+.btn-4{
+  position: absolute;
+  left: 270px;
+  width:140px;
+}
+
+.btn-5{
+  position: absolute;
+  left: 420px;
+  width:70px;
+}
+
+.btn-6{
+  position: absolute;
+  left: 500px;
+  width:160px;
+}
+
+
+
+
+
+.search-box{
+  display: inline-block;
+  width:250px;
+  height: 40px;
+  background: #D96315;
+  position: absolute;
+  top:5px;
+  right:20px;
+  border:none;
+  border-radius: 30px;
+  outline: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.searchbar{
+  position: absolute;
+  top:7px;
+  left:20px;
+  width: 75%;
+  height: 23px;
+  font-size: 15px;
+  color:white;
+  background: none;
+  border:none;
+  outline: none;
+}
+
+.searchsubbtn{
+  display:inline-block;
+  width:50px;
+  height:40px;
+  position: absolute;
+  top:0px;
+  right:0px;
+  border-radius: 20px;
+  color:red;
+  background: none;
+  border:none;
+  cursor: pointer;
+  transition: 0.2px;
+}
+
+
+
+.searchimg{
+  width:30px;
+  position: absolute;
+  top:8px;
+  left:8px;
+  color:red;
+  transition: 0.2s;
+}
+
+.searchimg:hover{
+  width:35px;
+  top:6px;
+  left:6px;
+}
+
+
+
+
+
+
+
+
+                            /* Media query:-------------------------------------- */
+
+                            @media (max-width:950px) {
+
+
+                              .footerheading{
+                                font-size: 15px;
+                                font-weight: lighter;
+                                font-family: kalam;
+                                color:white;
+                                position: absolute;
+                                top:0px;
+                                left:15px;
+                                width:260px;
+                              }
+
+                              .footer-btn{
+                                left:35px;
+                                font-size:14px;
+                                text-align: left;
+                              }
+                              .footer-btn:hover{
+                                margin-top:3px;
+                              }
+
+                              .btn-1{
+                                top: 50px;
+                              }
+
+
+                              .btn-2{
+                                top: 75px;
+                              }
+
+                              .btn-3{
+                                top: 100px;
+                              }
+
+                              .btn-4{
+                                top: 125px;
+                              }
+
+                              .btn-5{
+                                top: 150px;
+                              }
+
+                              .btn-6{
+                                top: 175px;
+                              }
+
+
+
+                              .search-box{
+                                display: inline-block;
+                                width:350px;
+                                height: 40px;
+                                background: #D96315;
+                                position: absolute;
+                                top:5px;
+                                right:20px;
+                                border:none;
+                                border-radius: 30px;
+                                outline: none;
+                                color: white;
+                              }
+                              .searchbar{
+                                width:80%;
+                              }
+
+
+
+
+                            }
+
+
+
+                            @media (max-width:700px) {
+
+                                .search-box{
+                                  display: inline-block;
+                                  width:300px;
+                                  height: 40px;
+                                  background: #D96315;
+                                  position: absolute;
+                                  top:5px;
+                                  right:20px;
+                                  border:none;
+                                  border-radius: 30px;
+                                  outline: none;
+                                  color: white;
+                                }
+                                .searchbar{
+                                  width:75%;
+                                }
+                            }
+
+
+
+                            @media (max-width:630px) {
+
+                                .search-box{
+                                  width:250px;
+                                }
+                                .searchbar{
+                                  width:75%;
+                                }
+                            }
+
+                            @media (max-width:570px) {
+
+                                .search-box{
+                                  width:200px;
+                                }
+                                .searchbar{
+                                  width:70%;
+                                }
+                            }
+
+
+                            @media (max-width:520px) {
+
+                                .search-box{
+                                  width:180px;
+                                }
+                                .searchbar{
+                                  width:70%;
+                                }
+                            }
+
+                            @media (max-width:480px) {
+
+                                .search-box{
+                                  width:150px;
+                                }
+                                .searchbar{
+                                  width:70%;
+                                }
+                            }

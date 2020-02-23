@@ -1,0 +1,2199 @@
+
+
+
+
+body{
+  padding:0px;
+  margin:0px;
+}
+
+
+.backgroundimgsec{
+  background-image: url('../Media/Photos/SignupBackground.png');
+  background-size: cover;
+  width:100%;
+  height:1100px;
+}
+
+
+
+.tab{
+   display:inline-block;
+   width:1130px;
+   height:1100px;
+   background:none;
+   position: absolute;
+   top:0px;
+   left:50%;
+   transform:translate(-50%);
+
+}
+
+
+
+
+.headingcontainer{
+  display:inline-block;
+  padding:0x;
+  margin:0px;
+  width: 500px;
+  height:230px;
+  position: absolute;
+  top:70px;
+  left: 10px;
+  background: #60C8D5A1;
+  border-radius: 50px;
+  border:3px solid green;
+}
+
+.heading1{
+  font-size: 45px;
+  font-weight: bold;
+  font-family: cursive;
+  color:white;
+  text-align:center;
+  position:relative;
+  top:-10px;
+
+}
+
+.heading2{
+  font-size: 80px;
+  font-weight: bold;
+  font-family: kalam;
+  color:red;
+  text-align: center;
+  position: relative;
+  top:-90px;
+}
+
+.heading3{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: cursive;
+  color:white;
+  text-align:center;
+  position: relative;
+  top:-190px;
+}
+
+
+
+
+.box2{
+  display: inline-block;
+  margin:0;
+  padding:0;
+  width:430px;
+  height:250px;
+  background: #123B8096;
+  position: absolute;
+  top:450px;
+  left:-500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px #303030BD;
+}
+
+
+
+
+
+.box{
+  display: block;
+  padding:5px;
+  margin:5px;
+  height:1000px;
+  width:490px;
+  background-color: #0E0E0ED9;
+  position: absolute;
+  top:70px;
+  left:550px;
+  border-radius: 40px;
+}
+
+.boxheading{
+  font-size: 70px;
+  font-family: kalam;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  top:-5px;
+  left:50%;
+  transform:translate(-50%);
+}
+
+.input{
+  height: 40px;
+  width:80%;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 15px;
+  background: transparent;
+  border: 2px solid green;
+  outline: none;
+  color:white;
+  position:relative;
+  left:50%;
+  transform:translate(-50%);
+}
+
+
+
+.firstname{
+  top:200px;
+}
+
+.secondname{
+  top:230px;
+}
+
+.lastname{
+  top:260px;
+}
+
+.email{
+  top:290px;
+}
+
+.phonenum{
+  top:320px;
+}
+
+.schoolid{
+  top:350px;
+}
+
+.aadharid{
+  top:380px;
+}
+
+.class{
+  position: absolute;
+  top:770px;
+  left:12%;
+  height: 45px;
+  width:30%;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid green;
+  outline: none;
+  background:#0E0E0ED9;
+  color:white;
+  text-align: center;
+}
+
+.options{
+  text-align: center;
+  font-size: 15px;
+  color:white;
+  font-family:kalam;
+}
+
+
+
+
+.sec{
+  position: absolute;
+  top:770px;
+  left:45%;
+  height: 45px;
+  width:20%;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid green;
+  outline: none;
+  background:#0E0E0ED9;
+  color:white;
+  text-align: center;
+}
+
+.roll{
+  position: absolute;
+  top:770px;
+  right:12%;
+  height: 45px;
+  width:20%;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid green;
+  outline: none;
+  background:#0E0E0ED9;
+  color:white;
+  text-align: center;
+}
+
+.username{
+  width:70%;
+  top:50px;
+  padding:0;
+  margin:0;
+  border-radius: 15px;
+  border: 2px solid #5C98FBDB;
+  placeholder-color:black;
+  background: #1336778A;
+}
+
+
+.password{
+  width:70%;
+  top:100px;
+  padding:0;
+  margin:0;
+  border-radius: 15px;
+  border: 2px solid #5C98FBDB;
+  background:#1336778A;
+}
+
+
+.submit-btn{
+  position: absolute;
+  bottom:5%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:40%;
+  height: 5%;
+  border-radius: 40px;
+  border: 3px solid #01DD24;
+  background: #6928F1E8;
+  outline: none;
+  font-size: 20px;
+  font-family: kalam;
+  font-weight: bold;
+  color:white;
+  transition: 0.3s;
+  cursor:pointer;
+}
+
+.submit-btn:hover{
+font-size: 30px;
+width:35%;
+height:55px;
+margin:0;
+}
+
+
+.war{
+  display:inline-block;
+  width:75%;
+  margin-right:10px;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%);
+  background: none;
+  text-align: justify;
+}
+
+
+#warfirstname{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:255px;
+
+}
+
+#warsecondname{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:330px;
+
+}
+
+#warlastname{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:410px;
+
+}
+
+#waremail{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:485px;
+
+}
+
+#warphonenumber{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:560px;
+}
+
+#warschoolid{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:635px;
+
+}
+
+#waraadharid{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:710px;
+
+}
+
+#warclass{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:820px;
+  left:70px;
+}
+
+#warsec{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:820px;
+  left:240px;
+}
+
+#warroll{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:820px;
+  left:360px;
+}
+
+#warusername{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:100px;
+  width:65%;
+
+}
+
+
+
+#warpassword{
+  font-size: 15px;
+  color:red;
+  position: absolute;
+  top:200px;
+  width:65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  display: block;
+  width:100%;
+  height:250px;
+  background: #06304E;
+  position: absolute;
+  top:1100px;
+}
+
+
+.footerheading{
+  font-size: 90%;
+  font-weight: lighter;
+  font-family: kalam;
+  color:white;
+  position: absolute;
+  top:40px;
+  left:45px;
+  width:20%;
+}
+
+.footer-btn{
+  display: inline-block;
+  height:40px;
+  width:auto;
+  margin:5px 3px;
+  position: absolute;
+  top:5px;
+  left:380px;
+  background: transparent;
+  border:none;
+  transition: 0.2s;
+  cursor: pointer;
+  outline: none;
+  color:white;
+}
+
+.footer-btn:hover{
+  font-size: 15px;
+  color:#F3631A;
+  margin-top: 0px;
+}
+
+.btn-1{
+  position: absolute;
+  left: 30px;
+  width:60px;
+}
+
+
+.btn-2{
+  position: absolute;
+  left: 100px;
+  width:60px;
+}
+
+.btn-3{
+  position: absolute;
+  left: 170px;
+  width:90px;
+}
+
+.btn-4{
+  position: absolute;
+  left: 270px;
+  width:140px;
+}
+
+.btn-5{
+  position: absolute;
+  left: 420px;
+  width:70px;
+}
+
+.btn-6{
+  position: absolute;
+  left: 500px;
+  width:160px;
+}
+
+
+
+
+
+.search-box{
+  display: inline-block;
+  width:250px;
+  height: 40px;
+  background: #D96315;
+  position: absolute;
+  top:5px;
+  right:20px;
+  border:none;
+  border-radius: 30px;
+  outline: none;
+  color: white;
+}
+
+.searchbar{
+  position: absolute;
+  top:7px;
+  left:20px;
+  width: 190px;
+  height: 23px;
+  font-size: 15px;
+  color:white;
+  background: none;
+  border:none;
+  outline: none;
+}
+
+.searchsubbtn{
+  display:inline-block;
+  width:50px;
+  height:40px;
+  position: absolute;
+  top:0px;
+  right:0px;
+  border-radius: 20px;
+  color:red;
+  background: none;
+  border:none;
+  cursor: pointer;
+  transition: 0.2px;
+}
+
+
+
+.searchimg{
+  width:30px;
+  position: absolute;
+  top:8px;
+  left:8px;
+  color:red;
+  transition: 0.2s;
+}
+
+.searchimg:hover{
+  width:35px;
+  top:6px;
+  left:6px;
+}
+
+
+/* Search bar style ends here*/
+
+
+/* Social media button style starts from here */
+
+
+.youtube{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  right:330px;
+  background:transparent;
+  border:3px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  cursor:pointer;
+  margin:0;
+  padding:0;
+}
+
+.youtube-btn{
+  width:80%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+.youtube-btn:hover{
+  margin-top: -8px;
+  width:100%;
+
+}
+
+
+
+.instagram{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  right:260px;
+  background:transparent;
+  border:3px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  cursor:pointer;
+  margin:0;
+  padding:0;
+}
+
+.instagram-btn{
+  width:80%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+.instagram-btn:hover{
+  margin-top: -8px;
+  width:100%;
+
+}
+
+
+.facebook{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  right:190px;
+  background:transparent;
+  border:3px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  cursor:pointer;
+  margin:0;
+  padding:0;
+}
+
+.facebook-btn{
+  width:90%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+.facebook-btn:hover{
+  margin-top: -8px;
+  width:110%;
+
+}
+
+
+.twitter{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  right:120px;
+  background:transparent;
+  border:3px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  cursor:pointer;
+  margin:0;
+  padding:0;
+}
+
+.twitter-btn{
+  width:100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+.twitter-btn:hover{
+  margin-top: -8px;
+  width:120%;
+
+}
+
+
+.linkedin{
+  display: inline-block;
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  right:50px;
+  background:transparent;
+  border:3px solid transparent;
+  border-radius: 20px;
+  outline: none;
+  cursor:pointer;
+}
+
+.linkedin-btn{
+  width:80%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  transition: 0.2s;
+  margin-top: 0px;
+}
+
+.linkedin-btn:hover{
+  margin-top: -8px;
+  width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query starts from here -----------------------------------------------------> */
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+
+
+          .tab{
+            display:inline-block;
+            width:1000px;
+            height:1100px;
+            background:transparent;
+            position: absolute;
+            top:0px;
+            left:50%;
+            transform:translate(-50%);
+
+
+          }
+
+          .headingcontainer{
+            width:450px;
+
+          }
+
+          .heading1{
+            font-size: 40px;
+          }
+
+          .heading2{
+            margin-top:70px;
+          }
+
+          .heading3{
+            font-size: 30px;
+            top:-175px;
+          }
+
+
+
+
+
+
+          .box{
+            width:450px;
+            left:500px;
+          }
+
+          .boxheading{
+            font-size: 60px;
+          }
+
+          #warsec{
+            left:220px;
+          }
+
+          #warroll{
+            left:330px;
+          }
+
+}
+
+
+
+
+
+
+
+@media (min-width:851px) and (max-width:1030px) {
+
+
+
+
+
+                                    body{
+                                          background: gray;
+                                        }
+
+
+
+
+                                  footer{
+                                  top:1700px;
+                                  height:500px;
+                                  margin:0;
+                                  padding:0;
+                                  }
+
+
+                                  .backgroundimgsec{
+                                  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../Media/Photos/SignupBackground.png');
+                                  background-size: cover;
+                                  height:1900px;
+                                  }
+
+
+                                  .headingcontainer{
+                                  position: absolute;
+                                  top:20px;
+                                  left:50%;
+                                  transform:translate(-50%);
+                                  width:550px;
+                                  height:150px;
+                                  border-radius: 20px;
+                                  }
+
+                                  .heading1{
+                                  position: absolute;
+                                  left:50px;
+                                  top:20px;
+                                  margin: 0;
+                                  padding: 0;
+                                  font-size: 40px;
+                                  font-family: sans-serif;
+                                  }
+
+                                  .heading2{
+                                  position: absolute;
+                                  top:5px;
+                                  left:350px;
+                                  font-size: 60px;
+                                  margin: 0;
+                                  padding:0;
+                                  font-family: cursive;
+                                  }
+
+                                  .heading3{
+                                  position: absolute;
+                                  top:90px;
+                                  left:30px;
+                                  margin:0;
+                                  padding:0;
+                                  font-size: 35px;
+                                  font-family: sans-serif;
+                                  }
+
+                                  .tab{
+                                  width:850px;
+                                  background: transparent;
+                                  left:50%;
+                                  transform: translate(-50%);
+                                  }
+
+                                  .box{
+                                  width:400px;
+                                  height:1100px;
+                                  left:65%;
+                                  top:470px;
+                                  transform: translate(-50%);
+                                  border: 4px solid #0803C1;
+                                  box-shadow: 0 0 10px 10px  #6B8BE2DE;
+                                  }
+
+
+                                  .boxheading{
+                                  font-size: 60px;
+                                  margin-top:100px;
+                                  }
+
+                                  .input{
+                                  position:relative;
+                                  height:40px;
+                                  font-size: 15px;
+                                  width:90%;
+                                  left:50%;
+                                  transform:translate(-50%);
+                                  }
+
+                                  .firstname{
+                                  top:200px;
+                                  }
+
+                                  .secondname{
+                                  top:230px;
+                                  }
+
+                                  .lastname{
+                                  top:260px;
+                                  }
+
+                                  .email{
+                                  top:290px;
+                                  }
+
+                                  .phonenum{
+                                  top:320px;
+                                  }
+
+                                  .schoolid{
+                                  top:350px;
+                                  }
+
+                                  .aadharid{
+                                  top:380px;
+                                  }
+
+                                  .class{
+                                  position:absolute;
+                                  top:755px;
+                                  left:50%;
+                                  transform:translate(-50%);
+                                  height:45px;
+                                  width:85%;
+                                  font-size: 15px;
+                                  }
+                                  #warclass{
+                                    top:805px;
+                                  }
+
+                                  .roll{
+                                  position:absolute;
+                                  top:830px;
+                                  left:70%;
+                                  transform:translate(-50%);
+                                  height:45px;
+                                  width:35%;
+                                  font-size: 15px;
+                                  }
+                                  #warroll{
+                                    top:880px;
+                                    left:58%;
+                                  }
+
+                                  .sec{
+                                  position:absolute;
+                                  left: 30%;
+                                  transform:translate(-50%);
+                                  top:830px;
+                                  height:45px;
+                                  width:35%;
+                                  font-size: 15px;
+                                  }
+                                  #warsec{
+                                    top:880px;
+                                    left:18%;
+                                  }
+
+
+
+
+                                  .box2{
+                                    left:-15%;
+                                    transform: translate(-50%);
+                                    top:-270px;
+                                    width:400px;
+                                    height:220px;
+                                  }
+
+
+                                  .username{
+                                    width:300px;
+                                  }
+                                  #warusername{
+                                    color:#F81818;
+                                  }
+
+                                  .password{
+                                  top:80px;
+                                  width:300px;
+                                  }
+                                  #warpassword{
+                                    top:175px;
+                                    color:#F81818;
+                                  }
+
+                                  .submit-btn{
+                                  position: relative;
+                                  top:630px;
+                                  margin-top: 2px;
+                                  margin-left: 0;
+                                  margin-right: 0;
+                                  margin-bottom: 0;
+                                  width:50%;
+                                  height:50px;
+                                  left:50%;
+                                  transform: translate(-50%);
+                                  font-size: 25px;
+                                  transition: 0.3s;
+                                  outline:none;
+                                  cursor: pointer;
+                                  }
+
+                                  .submit-btn:hover{
+                                  margin-top: 0px;
+                                  font-size: 33px;
+                                  width:54%;
+                                  height:54px;
+                                  }
+
+
+
+
+
+
+                                  /* footer elements are being styled from here */
+
+
+
+                                  footer{
+                                    top:1900px;
+                                  }
+
+
+                                  .footerheading{
+                                    left:35px;
+                                    top:350px;
+                                    display: inline-block;
+                                    width:300px;
+                                    background: transparent;
+                                    margin: 0;
+                                  }
+
+                                  .youtube{
+                                    right:220px;
+                                    background:transparent;
+                                    width:50px;
+                                    height:50px;
+                                  }
+
+                                  .youtube-btn{
+                                    width:35px;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%, -50%);
+                                    margin:0;
+                                  }
+
+                                  .youtube-btn:hover{
+                                    width:40px;
+                                    margin:0;
+                                    left:50%;
+                                    top:50
+                                    transform:translate(-50%, -50%);
+                                  }
+
+
+
+
+
+
+                                  .instagram{
+                                    right:170px;
+                                    background:transparent;
+                                    width:50px;
+                                    height:50px;
+                                  }
+
+                                  .instagram-btn{
+                                    width:35px;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%, -50%);
+                                    margin:0;
+                                  }
+
+                                  .instagram-btn:hover{
+                                    width:40px;
+                                    margin:0;
+                                    left:50%;
+                                    top:50
+                                    transform:translate(-50%, -50%);
+                                  }
+
+
+
+
+
+
+                                  .facebook{
+                                    right:120px;
+                                    background:transparent;
+                                    width:50px;
+                                    height:50px;
+                                  }
+
+                                  .facebook-btn{
+                                    width:35px;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%, -50%);
+                                    margin:0;
+                                  }
+
+                                  .facebook-btn:hover{
+                                    width:40px;
+                                    margin:0;
+                                    left:50%;
+                                    top:50
+                                    transform:translate(-50%, -50%);
+                                  }
+
+
+
+
+
+                                  .twitter{
+                                    right:70px;
+                                    background:transparent;
+                                    width:50px;
+                                    height:50px;
+                                  }
+
+                                  .twitter-btn{
+                                    width:35px;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%, -50%);
+                                    margin:0;
+                                  }
+
+                                  .twitter-btn:hover{
+                                    width:40px;
+                                    margin:0;
+                                    left:50%;
+                                    top:50
+                                    transform:translate(-50%, -50%);
+                                  }
+
+
+
+
+                                  .linkedin{
+                                    right:20px;
+                                    background:transparent;
+                                    width:50px;
+                                    height:50px;
+                                  }
+
+                                  .linkedin-btn{
+                                    width:35px;
+                                    left:50%;
+                                    top:50%;
+                                    transform:translate(-50%, -50%);
+                                    margin:0;
+                                  }
+
+                                  .linkedin-btn:hover{
+                                    width:40px;
+                                    margin:0;
+                                    left:50%;
+                                    top:50
+                                    transform:translate(-50%, -50%);
+                                  }
+
+
+
+
+
+                                  .btn-1{
+                                    top:10px;
+                                    left:30px;
+                                  }
+
+                                  .btn-2{
+                                    top:50px;
+                                    left:30px;
+                                  }
+
+                                  .btn-3{
+                                    top:90px;
+                                    left:30px;
+                                  }
+
+                                  .btn-4{
+                                    top:130px;
+                                    left:30px;
+                                  }
+
+                                  .btn-5{
+                                    top:170px;
+                                    left:35px;
+                                  }
+
+                                  .btn-6{
+                                    top:210px;
+                                    left:25px;
+                                  }
+
+                                  .footer-btn{
+                                    margin-left:0;
+                                  }
+
+
+
+                                  .search-box{
+                                    top:20px;
+                                    width:350px;
+                                    background: #2A2A2AE6;
+                                    border:1px solid black;
+                                    box-shadow:  -2px 2px 7px 7px #F3631A;
+
+                                  }
+
+                                  .searchbar{
+                                    width:280px;
+                                  }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:601px) and (max-width:850px) {
+
+
+                                                                body{
+                                                                      background: gray;
+                                                                    }
+
+
+
+
+                                                              footer{
+                                                              top:1700px;
+                                                              height:500px;
+                                                              margin:0;
+                                                              padding:0;
+                                                              }
+
+
+                                                              .backgroundimgsec{
+                                                              background-image: url('../Media/Photos/SignupBackground.png');
+                                                              height:1700px;
+                                                              }
+
+
+                                                              .headingcontainer{
+                                                              position: absolute;
+                                                              top:20px;
+                                                              left:50%;
+                                                              transform:translate(-50%);
+                                                              width:500px;
+                                                              height:150px;
+                                                              border-radius: 20px;
+                                                              }
+
+                                                              .heading1{
+                                                                display:none;
+                                                              position: absolute;
+                                                              left:50px;
+                                                              top:20px;
+                                                              margin: 0;
+                                                              padding: 0;
+                                                              font-size: 40px;
+                                                              font-family: sans-serif;
+                                                              }
+
+                                                              .heading2{
+                                                              position: absolute;
+                                                              top:5px;
+                                                              left:350px;
+                                                              font-size: 60px;
+                                                              margin: 0;
+                                                              padding:0;
+                                                              font-family: cursive;
+                                                              }
+
+                                                              .heading3{
+                                                              position: absolute;
+                                                              top:100px;
+                                                              left:50%;
+                                                              transform: translate(-50%);
+                                                              margin:0;
+                                                              padding:0;
+                                                              font-size: 20px;
+                                                              font-family: cursive;
+                                                              }
+
+                                                              .tab{
+                                                              width:100%;
+                                                              }
+
+                                                              .box{
+                                                              width:500px;
+                                                              height:1050px;
+                                                              left:50%;
+                                                              top:500px;
+                                                              transform: translate(-50%);
+                                                              border: 4px solid #0803C1;
+                                                              box-shadow: 0 0 10px 10px  #6B8BE2DE;
+                                                              }
+
+
+                                                              .boxheading{
+                                                              font-size: 70px;
+                                                              top:-545px;
+                                                              left:38%;
+                                                              }
+
+                                                              .input{
+                                                              position:relative;
+                                                              height:40px;
+                                                              font-size: 15px;
+                                                              width:90%;
+                                                              left:50%;
+                                                              transform:translate(-50%);
+                                                              }
+
+                                                              .firstname{
+                                                              top:100px;
+                                                              }
+                                                              #warfirstname{
+                                                                top:150px;
+                                                              }
+
+
+                                                              .secondname{
+                                                              top:130px;
+                                                              }
+                                                              #warsecondname{
+                                                                top:230px;
+                                                              }
+
+                                                              .lastname{
+                                                              top:160px;
+                                                              }
+                                                              #warlastname{
+                                                                top:310px;
+                                                              }
+
+
+                                                              .email{
+                                                              top:190px;
+                                                              }
+                                                              #waremail{
+                                                                top:380px;
+                                                              }
+
+
+
+
+                                                              .phonenum{
+                                                              top:220px;
+                                                              }
+                                                              #warphonenumber{
+                                                                top:460px;
+                                                              }
+
+
+                                                              .schoolid{
+                                                              top:250px;
+                                                              }
+                                                              #warschoolid{
+                                                                top:530px;
+                                                              }
+
+
+                                                              .aadharid{
+                                                              top:280px;
+                                                              }
+                                                              #waraadharid{
+                                                                top:610px;
+                                                              }
+
+
+                                                              .class{
+                                                              position:absolute;
+                                                              top:655px;
+                                                              left:50%;
+                                                              transform:translate(-50%);
+                                                              height:45px;
+                                                              width:85%;
+                                                              font-size: 15px;
+                                                              }
+                                                              #warclass{
+                                                                top:705px;
+                                                              }
+
+
+
+
+                                                              .roll{
+                                                              position:absolute;
+                                                              top:740px;
+                                                              left:70%;
+                                                              transform:translate(-50%);
+                                                              height:45px;
+                                                              width:35%;
+                                                              font-size: 15px;
+                                                              }
+                                                              #warroll{
+                                                                top:790px;
+                                                                left:58%;
+                                                              }
+
+
+
+                                                              .sec{
+                                                              position:absolute;
+                                                              left: 30%;
+                                                              transform:translate(-50%);
+                                                              top:740px;
+                                                              height:45px;
+                                                              width:35%;
+                                                              font-size: 15px;
+                                                              }
+                                                              #warsec{
+                                                                top:790px;
+                                                                left:18%;
+                                                              }
+
+
+
+                                                              .box2{
+                                                                left:50%;
+                                                                transform: translate(-50%);
+                                                                top:-250px;
+                                                                width:400px;
+                                                                height:220px;
+                                                              }
+
+
+                                                              .username{
+                                                                width:300px;
+                                                              }
+                                                              #warusername{
+                                                                color:#F81818;
+                                                              }
+
+                                                              .password{
+                                                              top:80px;
+                                                              width:300px;
+                                                              }
+                                                              #warpassword{
+                                                                top:175px;
+                                                                color:#F81818;
+                                                              }
+
+                                                              .submit-btn{
+                                                              position: relative;
+                                                              top:560px;
+                                                              margin-top: 2px;
+                                                              margin-left: 0;
+                                                              margin-right: 0;
+                                                              margin-bottom: 0;
+                                                              width:50%;
+                                                              height:50px;
+                                                              left:50%;
+                                                              transform: translate(-50%);
+                                                              font-size: 25px;
+                                                              transition: 0.3s;
+                                                              outline:none;
+                                                              cursor: pointer;
+                                                              }
+
+                                                              .submit-btn:hover{
+                                                              margin-top: 0px;
+                                                              font-size: 33px;
+                                                              width:54%;
+                                                              height:54px;
+                                                              }
+
+
+
+
+
+
+                                                              /* footer elements are being styled from here */
+
+
+
+                                                              .footerheading{
+                                                                left:35px;
+                                                                top:350px;
+                                                                display: inline-block;
+                                                                width:300px;
+                                                                background: transparent;
+                                                                margin: 0;
+                                                              }
+
+                                                              .youtube{
+                                                                right:220px;
+                                                                background:transparent;
+                                                                width:50px;
+                                                                height:50px;
+                                                              }
+
+                                                              .youtube-btn{
+                                                                width:35px;
+                                                                left:50%;
+                                                                top:50%;
+                                                                transform:translate(-50%, -50%);
+                                                                margin:0;
+                                                              }
+
+                                                              .youtube-btn:hover{
+                                                                width:40px;
+                                                                margin:0;
+                                                                left:50%;
+                                                                top:50
+                                                                transform:translate(-50%, -50%);
+                                                              }
+
+
+
+
+
+
+                                                              .instagram{
+                                                                right:170px;
+                                                                background:transparent;
+                                                                width:50px;
+                                                                height:50px;
+                                                              }
+
+                                                              .instagram-btn{
+                                                                width:35px;
+                                                                left:50%;
+                                                                top:50%;
+                                                                transform:translate(-50%, -50%);
+                                                                margin:0;
+                                                              }
+
+                                                              .instagram-btn:hover{
+                                                                width:40px;
+                                                                margin:0;
+                                                                left:50%;
+                                                                top:50
+                                                                transform:translate(-50%, -50%);
+                                                              }
+
+
+
+
+
+
+                                                              .facebook{
+                                                                right:120px;
+                                                                background:transparent;
+                                                                width:50px;
+                                                                height:50px;
+                                                              }
+
+                                                              .facebook-btn{
+                                                                width:35px;
+                                                                left:50%;
+                                                                top:50%;
+                                                                transform:translate(-50%, -50%);
+                                                                margin:0;
+                                                              }
+
+                                                              .facebook-btn:hover{
+                                                                width:40px;
+                                                                margin:0;
+                                                                left:50%;
+                                                                top:50
+                                                                transform:translate(-50%, -50%);
+                                                              }
+
+
+
+
+
+                                                              .twitter{
+                                                                right:70px;
+                                                                background:transparent;
+                                                                width:50px;
+                                                                height:50px;
+                                                              }
+
+                                                              .twitter-btn{
+                                                                width:35px;
+                                                                left:50%;
+                                                                top:50%;
+                                                                transform:translate(-50%, -50%);
+                                                                margin:0;
+                                                              }
+
+                                                              .twitter-btn:hover{
+                                                                width:40px;
+                                                                margin:0;
+                                                                left:50%;
+                                                                top:50
+                                                                transform:translate(-50%, -50%);
+                                                              }
+
+
+
+
+                                                              .linkedin{
+                                                                right:20px;
+                                                                background:transparent;
+                                                                width:50px;
+                                                                height:50px;
+                                                              }
+
+                                                              .linkedin-btn{
+                                                                width:35px;
+                                                                left:50%;
+                                                                top:50%;
+                                                                transform:translate(-50%, -50%);
+                                                                margin:0;
+                                                              }
+
+                                                              .linkedin-btn:hover{
+                                                                width:40px;
+                                                                margin:0;
+                                                                left:50%;
+                                                                top:50
+                                                                transform:translate(-50%, -50%);
+                                                              }
+
+
+
+
+
+                                                              .btn-1{
+                                                                top:10px;
+                                                                left:30px;
+                                                              }
+
+                                                              .btn-2{
+                                                                top:50px;
+                                                                left:30px;
+                                                              }
+
+                                                              .btn-3{
+                                                                top:90px;
+                                                                left:30px;
+                                                              }
+
+                                                              .btn-4{
+                                                                top:130px;
+                                                                left:30px;
+                                                              }
+
+                                                              .btn-5{
+                                                                top:170px;
+                                                                left:35px;
+                                                              }
+
+                                                              .btn-6{
+                                                                top:210px;
+                                                                left:25px;
+                                                              }
+
+                                                              .footer-btn{
+                                                                margin-left:0;
+                                                              }
+
+
+
+                                                              .search-box{
+                                                                top:20px;
+                                                                width:250px;
+                                                                background: #2A2A2AE6;
+                                                                border:1px solid black;
+                                                                box-shadow:  -2px 2px 7px 7px #F3631A;
+
+                                                              }
+
+                                                              .searchbar{
+                                                                width:180px;
+                                                              }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+
+                                                                                              body{
+                                                                                                    background: gray;
+                                                                                                  }
+
+
+
+
+                                                                                          footer{
+                                                                                            top:1700px;
+                                                                                            height:500px;
+                                                                                            margin:0;
+                                                                                            padding:0;
+                                                                                          }
+
+
+                                                                                          .backgroundimgsec{
+                                                                                            background-image: url('../Media/Photos/SignupBackground.png');
+                                                                                            height:1700px;
+                                                                                          }
+
+
+                                                                                          .headingcontainer{
+                                                                                            position: absolute;
+                                                                                            top:20px;
+                                                                                            left:50%;
+                                                                                            transform:translate(-50%);
+                                                                                            width:370px;
+                                                                                            height:130px;
+                                                                                            border-radius: 20px;
+                                                                                          }
+
+                                                                                          .heading1{
+                                                                                            display:none;
+                                                                                            position: absolute;
+                                                                                            left:35px;
+                                                                                            top:20px;
+                                                                                            margin: 0;
+                                                                                            padding: 0;
+                                                                                            font-size: 30px;
+                                                                                            font-family: sans-serif;
+                                                                                          }
+
+                                                                                          .heading2{
+                                                                                            position: absolute;
+                                                                                            top:5px;
+                                                                                            left:270px;
+                                                                                            font-size: 60px;
+                                                                                            margin: 0;
+                                                                                            padding:0;
+                                                                                            font-family:cursive;
+                                                                                          }
+
+                                                                                          .heading3{
+                                                                                            position: absolute;
+                                                                                            top:80px;
+                                                                                            left:50%;
+                                                                                            transform: translate(-50%);
+                                                                                            margin:0;
+                                                                                            padding:0;
+                                                                                            font-size: 20px;
+                                                                                            width:100%;
+                                                                                            font-family: cursive;
+                                                                                          }
+
+                                                                                          .tab{
+                                                                                            width:100%;
+                                                                                          }
+
+                                                                                          .box{
+                                                                                            width:350px;
+                                                                                            height:1000px;
+                                                                                            left:50%;
+                                                                                            top:430px;
+                                                                                            transform: translate(-50%);
+                                                                                            border: 4px solid #0803C1;
+                                                                                            box-shadow: 0 0 10px 10px  #6B8BE2DE;
+                                                                                          }
+
+
+                                                                                          .boxheading{
+                                                                                            font-size: 60px;
+                                                                                            top:-470px;
+                                                                                            left:33%;
+                                                                                          }
+
+                                                                                          .input{
+                                                                                            position:relative;
+                                                                                            height:40px;
+                                                                                            font-size: 15px;
+                                                                                            width:90%;
+                                                                                            left:50%;
+                                                                                            transform:translate(-50%);
+                                                                                          }
+
+                                                                                          .firstname{
+                                                                                          top:100px;
+                                                                                          }
+                                                                                          #warfirstname{
+                                                                                            top:150px;
+                                                                                          }
+
+
+                                                                                          .secondname{
+                                                                                          top:130px;
+                                                                                          }
+                                                                                          #warsecondname{
+                                                                                            top:230px;
+                                                                                          }
+
+                                                                                          .lastname{
+                                                                                          top:160px;
+                                                                                          }
+                                                                                          #warlastname{
+                                                                                            top:310px;
+                                                                                          }
+
+
+                                                                                          .email{
+                                                                                          top:190px;
+                                                                                          }
+                                                                                          #waremail{
+                                                                                            top:380px;
+                                                                                          }
+
+
+
+
+                                                                                          .phonenum{
+                                                                                          top:220px;
+                                                                                          }
+                                                                                          #warphonenumber{
+                                                                                            top:460px;
+                                                                                          }
+
+
+                                                                                          .schoolid{
+                                                                                          top:250px;
+                                                                                          }
+                                                                                          #warschoolid{
+                                                                                            top:535px;
+                                                                                          }
+
+
+                                                                                          .aadharid{
+                                                                                          top:280px;
+                                                                                          }
+                                                                                          #waraadharid{
+                                                                                            top:610px;
+                                                                                          }
+
+
+                                                                                          .class{
+                                                                                          position:absolute;
+                                                                                          top:655px;
+                                                                                          left:50%;
+                                                                                          transform:translate(-50%);
+                                                                                          height:45px;
+                                                                                          width:85%;
+                                                                                          font-size: 15px;
+                                                                                          }
+                                                                                          #warclass{
+                                                                                            top:705px;
+                                                                                          }
+
+
+
+
+                                                                                          .roll{
+                                                                                          position:absolute;
+                                                                                          top:740px;
+                                                                                          left:70%;
+                                                                                          transform:translate(-50%);
+                                                                                          height:45px;
+                                                                                          width:35%;
+                                                                                          font-size: 15px;
+                                                                                          }
+                                                                                          #warroll{
+                                                                                            top:790px;
+                                                                                            left:58%;
+                                                                                          }
+
+
+
+                                                                                          .sec{
+                                                                                          position:absolute;
+                                                                                          left: 30%;
+                                                                                          transform:translate(-50%);
+                                                                                          top:740px;
+                                                                                          height:45px;
+                                                                                          width:35%;
+                                                                                          font-size: 15px;
+                                                                                          }
+                                                                                          #warsec{
+                                                                                            top:790px;
+                                                                                            left:18%;
+                                                                                          }
+
+
+
+
+                                                                                                .box2{
+                                                                                                  left:50%;
+                                                                                                  transform: translate(-50%);
+                                                                                                  top:-250px;
+                                                                                                  width:320px;
+                                                                                                  height:210px;
+                                                                                                }
+
+
+                                                                                                .username{
+                                                                                                  width:75%;
+                                                                                                }
+                                                                                                #warusername{
+                                                                                                  color:#F81818;
+                                                                                                }
+
+                                                                                                .password{
+                                                                                                top:80px;
+                                                                                                width:75%;
+                                                                                                }
+                                                                                                #warpassword{
+                                                                                                  top:175px;
+                                                                                                  color:#F81818;
+                                                                                                }
+
+                                                                                          .submit-btn{
+                                                                                            position: relative;
+                                                                                            top:530px;
+                                                                                            margin-top: 2px;
+                                                                                            margin-left: 0;
+                                                                                            margin-right: 0;
+                                                                                            margin-bottom: 0;
+                                                                                            width:50%;
+                                                                                            height:50px;
+                                                                                            left:50%;
+                                                                                            transform: translate(-50%);
+                                                                                            font-size: 25px;
+                                                                                            transition: 0.3s;
+                                                                                            outline:none;
+                                                                                            cursor: pointer;
+                                                                                          }
+
+                                                                                          .submit-btn:hover{
+                                                                                            margin-top: 0px;
+                                                                                            font-size: 33px;
+                                                                                            width:54%;
+                                                                                            height:54px;
+                                                                                          }
+
+
+
+
+
+
+                                                                                /* footer elements are being styled from here */
+
+
+
+                                                                                            .footerheading{
+                                                                                              left:35px;
+                                                                                              top:350px;
+                                                                                              display: inline-block;
+                                                                                              width:300px;
+                                                                                              background: transparent;
+                                                                                              margin: 0;
+                                                                                            }
+
+                                                                                            .youtube{
+                                                                                              right:220px;
+                                                                                              background:transparent;
+                                                                                              width:50px;
+                                                                                              height:50px;
+                                                                                            }
+
+                                                                                            .youtube-btn{
+                                                                                              width:35px;
+                                                                                              left:50%;
+                                                                                              top:50%;
+                                                                                              transform:translate(-50%, -50%);
+                                                                                              margin:0;
+                                                                                            }
+
+                                                                                            .youtube-btn:hover{
+                                                                                              width:40px;
+                                                                                              margin:0;
+                                                                                              left:50%;
+                                                                                              top:50
+                                                                                              transform:translate(-50%, -50%);
+                                                                                            }
+
+
+
+
+
+
+                                                                                            .instagram{
+                                                                                              right:170px;
+                                                                                              background:transparent;
+                                                                                              width:50px;
+                                                                                              height:50px;
+                                                                                            }
+
+                                                                                            .instagram-btn{
+                                                                                              width:35px;
+                                                                                              left:50%;
+                                                                                              top:50%;
+                                                                                              transform:translate(-50%, -50%);
+                                                                                              margin:0;
+                                                                                            }
+
+                                                                                            .instagram-btn:hover{
+                                                                                              width:40px;
+                                                                                              margin:0;
+                                                                                              left:50%;
+                                                                                              top:50
+                                                                                              transform:translate(-50%, -50%);
+                                                                                            }
+
+
+
+
+
+
+                                                                                            .facebook{
+                                                                                              right:120px;
+                                                                                              background:transparent;
+                                                                                              width:50px;
+                                                                                              height:50px;
+                                                                                            }
+
+                                                                                            .facebook-btn{
+                                                                                              width:35px;
+                                                                                              left:50%;
+                                                                                              top:50%;
+                                                                                              transform:translate(-50%, -50%);
+                                                                                              margin:0;
+                                                                                            }
+
+                                                                                            .facebook-btn:hover{
+                                                                                              width:40px;
+                                                                                              margin:0;
+                                                                                              left:50%;
+                                                                                              top:50
+                                                                                              transform:translate(-50%, -50%);
+                                                                                            }
+
+
+
+
+
+                                                                                            .twitter{
+                                                                                              right:70px;
+                                                                                              background:transparent;
+                                                                                              width:50px;
+                                                                                              height:50px;
+                                                                                            }
+
+                                                                                            .twitter-btn{
+                                                                                              width:35px;
+                                                                                              left:50%;
+                                                                                              top:50%;
+                                                                                              transform:translate(-50%, -50%);
+                                                                                              margin:0;
+                                                                                            }
+
+                                                                                            .twitter-btn:hover{
+                                                                                              width:40px;
+                                                                                              margin:0;
+                                                                                              left:50%;
+                                                                                              top:50
+                                                                                              transform:translate(-50%, -50%);
+                                                                                            }
+
+
+
+
+                                                                                            .linkedin{
+                                                                                              right:20px;
+                                                                                              background:transparent;
+                                                                                              width:50px;
+                                                                                              height:50px;
+                                                                                            }
+
+                                                                                            .linkedin-btn{
+                                                                                              width:35px;
+                                                                                              left:50%;
+                                                                                              top:50%;
+                                                                                              transform:translate(-50%, -50%);
+                                                                                              margin:0;
+                                                                                            }
+
+                                                                                            .linkedin-btn:hover{
+                                                                                              width:40px;
+                                                                                              margin:0;
+                                                                                              left:50%;
+                                                                                              top:50
+                                                                                              transform:translate(-50%, -50%);
+                                                                                            }
+
+
+
+
+
+                                                                                            .btn-1{
+                                                                                              top:10px;
+                                                                                              left:30px;
+                                                                                            }
+
+                                                                                            .btn-2{
+                                                                                              top:50px;
+                                                                                              left:30px;
+                                                                                            }
+
+                                                                                            .btn-3{
+                                                                                              top:90px;
+                                                                                              left:30px;
+                                                                                            }
+
+                                                                                            .btn-4{
+                                                                                              top:130px;
+                                                                                              left:30px;
+                                                                                            }
+
+                                                                                            .btn-5{
+                                                                                              top:170px;
+                                                                                              left:35px;
+                                                                                            }
+
+                                                                                            .btn-6{
+                                                                                              top:210px;
+                                                                                              left:25px;
+                                                                                            }
+
+                                                                                            .footer-btn{
+                                                                                              margin-left:0;
+                                                                                            }
+
+
+
+                                                                                            .search-box{
+                                                                                              top:20px;
+                                                                                              width:250px;
+                                                                                              background: #2A2A2AE6;
+                                                                                              border:1px solid black;
+                                                                                              box-shadow:  -2px 2px 7px 7px #F3631A;
+
+                                                                                            }
+
+                                                                                            .searchbar{
+                                                                                              width:180px;
+                                                                                            }
+
+
+
+
+
+
+
+
+
+
+
+}

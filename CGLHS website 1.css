@@ -1,0 +1,712 @@
+
+footer{
+  margin : 0px;
+  padding : 0px ;
+  width : 100%;
+  height : 150px;
+  display : inline-block;
+  background-color : #EEEE;
+}
+
+
+ .logo1{
+	 display :  inline block ;
+		background-color : none ;
+		margin : 3px ;
+		padding : 2px ;
+	    float : left ;
+		height: 10% ;
+		width : 5% ;
+
+}
+
+
+.logolink {
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+		cursor : pointer;
+
+}
+
+
+
+ .navigationpanel{
+	    display : inline block;
+        width   : 65% ;
+		margin : 3px;
+        padding : 2px ;
+        background-color : white ;
+        float : right ;
+
+ }
+
+
+nav ul li:hover{
+	background-color : #84062085 ;
+
+}
+
+
+
+
+
+.button1 , .button2 , .button3 , .button4 , .button5 , .button6 {
+
+	display : inline block ;
+	background-color : #840620 ;
+    float   : left ;
+	color : white ;
+	font-weight:bold ;
+	text-align : center ;
+	font-size : 12px;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+ .button1 {
+        width : 8% ;
+		margin : 8px ;
+		padding : 10px ;
+		border : 30px-white  ;
+ }
+
+
+ .button2{
+	    width :8% ;
+		margin : 8px ;
+		padding : 10px ;
+		border : 30px-white  ;
+
+
+ }
+
+
+
+ .button3{
+
+		width : 10% ;
+		margin : 8px ;
+		padding : 10px ;
+		border : 30px-white  ;
+
+ }
+
+
+
+
+
+ .button4{
+
+		width : 8% ;
+		margin : 8px ;
+		padding : 10px ;
+		border : 30px-white  ;
+
+
+ }
+
+
+
+
+
+ .button5{
+
+		width : 15% ;
+		margin : 08px ;
+		padding : 10px ;
+		border : 30px-white  ;
+
+
+ }
+
+
+
+
+
+
+ .button6{
+
+		width : 15% ;
+		margin : 08px ;
+		padding : 10px ;
+		border : 30px-white  ;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+.age {
+        display :  inline block ;
+		background-color : nonw		;
+		margin : 5px ;
+		padding : 2px ;
+	    float : Right ;
+		cursor : pointer;
+}
+
+
+
+
+
+.outerofage {
+        display : inline block ;
+        padding : 5px ;
+		background-color : #FFBE1D   ;
+        float : right ;
+		width : 15%
+
+}
+
+
+
+ .Heading{
+	    display: inline block ;
+		margin: 5px;
+		padding: 40px;
+		border : white ;
+		width : 90% ;
+		height : 20% ;
+		text-align : center ;
+		background-color : #302E30 ;
+		color:      #FFBE1D      ;
+        font-family: 'Gloria Hallelujah', cursive;
+		font-size : 300% ;
+		font-weight : bold ;
+
+ }
+
+
+
+
+.aboutsection1{
+	    display : inline block ;
+	    background-color : #851698 ;
+		width : 80% ;
+		color : black ;
+		padding : 50px ;
+		margin : 10px ;
+
+
+}
+
+
+
+.textofas1{
+	    display : inline block ;
+		background-color : none ;
+		width : 50% ;
+		text-align : justify ;
+		color : white ;
+		padding : 5px ;
+		margin : 10px ;
+		float  : left ;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size : 115% ;
+
+
+
+}
+
+
+.contentofas1{
+
+
+
+}
+
+
+
+
+ .asbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float :center ;
+ }
+
+ .instagramcglhs{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookcglhs{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twittercglhs{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedincglhs{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagramcglhs:hover{
+          background-color: #EEEEEE ;
+
+ }
+
+
+
+ .facebookcglhs:hover{
+          background-color: #EEEEEE ;
+
+ }
+
+
+
+
+ .twittercglhs:hover{
+          background-color: #EEEEEE ;
+
+ }
+
+
+
+
+ .linkedincglhs:hover{
+          background-color: #EEEEEE ;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutschool{
+	    display : inline block ;
+		pading : 15px ;
+		background-color : white ;
+		width : 80% ;
+		text-align : justify ;
+		color : black ;
+		padding : 5px ;
+		margin : 10px ;
+		float  : center ;
+		font-family: 'Chilanka', cursive;
+}
+
+
+
+.x { display : block ;
+		  background-color : #3C4196 ;
+		  color : #FFDA14 ;
+		  margin : 0px ;
+          padding : 80px ; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headmaster {
+		    display : inline-block ;
+		    background-color : #3C4196 ;
+			width      : 55% ;
+   			padding    : 5px;
+			margin     : 10px;
+			color      : #FFDA14 ;
+			float      : right;
+			font-size  : 135% ;
+			text-align : justify ; }
+
+
+
+
+ .hmbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float : right ;
+ }
+
+ .instagramhm{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookhm{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twitterhm{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedinhm{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagramhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+ .facebookhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .twitterhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .linkedinhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+.pressident {
+		    display : inline-block ;
+            background-color : #3C4196 ;
+			width    : 55% ;
+            padding  : 5px ;
+		    margin   : 50px ;
+		    color    : #FFDA14 ;
+		    float    : left ;
+			font-size: 135% ;
+			text-align: justify ;
+}
+
+
+
+
+ .pressidentbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float : right ;
+ }
+
+ .instagrampressident{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookpressident{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twitterpressident{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedinpressident{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagrampressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+ .facebookpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .twitterpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .linkedinpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+
+
+
+
+
+ .YouTube{
+
+
+ }
+
+
+
+ .YouTubeheading{
+	 display : inline block ;
+	 background-color : none ;
+	 margin: 3px ;
+	 padding: 2px ;
+	 width : 50% ;
+	 height : 180px;
+	 float : left ;
+
+
+ }
+
+
+
+
+
+
+ .yttext1{
+	 font-size : 80px;
+	 color : black ;
+	 font-family : Kalam;
+	 float : right ;
+
+
+
+ }
+
+
+
+ .YouTubeheadingimg{
+	 display : inline block ;
+	 background-color : none ;
+	 margin: 3px ;
+	 padding: 2px ;
+	 width : 48% ;
+	 height : 180px;
+	 float : right ;
+
+ }
+
+
+.cglhsonyt{
+	 background-color : white ;
+	 border : 1px solid white ;
+	 float : left ;
+
+ }
+
+
+.ytbuttona{
+	 background-color : green ;
+}
+
+
+ .ytbutton{
+
+	 margin:0px;
+	 padding:0px;
+	 width:25%;
+	 height:70px;
+	 background-color:black;
+	 float:center;
+	 border:1px solid white;
+ }
+
+
+
+ .YouTubebutton{
+
+	 background-color:black;
+	 float:center;
+	 width:90%;
+	 height:55px;
+	 margin: 0px;
+	 padding : 0px;
+	 border:1px solid black;
+	 float:center;
+ }
+
+ .ytbuttontextx{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:30%;
+	 height:55px ;
+	 background-color:none;
+	 float:left;
+	 font-size: 38px;
+	 color:white;
+	 font-family: kalam;
+
+
+
+
+ }
+
+ .ytbuttonimg{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:30%;
+	 height:55px ;
+	 background-color:none;
+	 float:center;
+ }
+
+ .ytbuttontexty{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:40%;
+	 height:55px ;
+	 background-color:none;
+	 float:right;
+	 font-size: 35px;
+	 color:white;
+	 font-family: kalam;
+
+ }
