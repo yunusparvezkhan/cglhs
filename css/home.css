@@ -1,0 +1,506 @@
+.pageheader{
+  margin : 0px;
+  padding : 3px;
+  width: 100 % ;
+  height : 65px;
+  background-color : white;
+}
+
+.menubtn{
+  width:50px;
+  height:35px;
+  margin:5px;
+  position:absolute;
+  top:15px;
+  left:12px;
+  background-color: transparent;
+  border:1px solid white ;
+}
+
+
+.spanx, .spany, .spanz{
+  font-size: 50px;
+  font-weight: bold;
+  color:black;
+}
+
+.spanx{
+  position:absolute;
+  top:-48px;
+  left:10px;
+}
+
+
+.spany{
+  position:absolute;
+  top:-38px;
+  left:10px;
+}
+
+.spanz{
+  position:absolute;
+  top:-28px;
+  left:10px;
+}
+
+
+
+.logo{
+  position:absolute;
+  top:15px;
+  left:85px;
+}
+
+.headernav{
+	      display : inline block;
+        width   : 60% ;
+		    margin : 0px;
+        padding : 0px ;
+        background-color : white ;
+        position: absolute;
+        left:220px;
+        top:-5px;
+        background-color:transparent;
+}
+
+
+nav ul li:hover{
+	background-color : none ;
+  font-size:105%;
+  color:#920AB3;
+  font-style: italic;
+
+}
+
+.button1:hover{
+  background-color : white ;
+  font-size:100%;
+  color:#FFBE1D;
+  font-style: italic;
+  border:3px solid white;
+}
+
+
+.button1 , .button2 , .button3 , .button4 , .button5 , .button6{
+  float   : left ;
+	color : black ;
+	font-weight:bold ;
+	text-align : center ;
+	font-size : 80% ;
+  list-style-type: none;
+  background-color: none;
+  border:3px solid white;
+}
+
+.button1 {
+   width : 11% ;
+   margin : 8px ;
+   padding : 10px ;
+   border : 3px solid #FFBE1D  ;
+   display : inline block ;
+   background-color : #0A7219 ;
+   color:white;
+}
+
+.button2{
+   width :8% ;
+   margin : 8px ;
+   padding : 10px ;
+   border : 30px-white  ;
+}
+
+.button3{
+   width : 7% ;
+   margin : 8px ;
+   padding : 10px ;
+   border : 30px-white  ;
+}
+
+.button4{
+   width : 6% ;
+   margin : 8px ;
+   padding : 10px ;
+   border : 30px-white  ;
+}
+
+.button5{
+  width : 11% ;
+   margin : 08px ;
+   padding : 10px ;
+   border : 30px-white  ;
+}
+
+.button6{
+   width : 13% ;
+   margin : 08px ;
+   padding : 10px ;
+   border : 30px-white  ;
+}
+
+
+.searchbox{
+  display:inline-block;
+  width:77%;
+  height:30px;
+  background-color: #484848;
+  border:none;
+  outline: none;
+  color:white;
+  position: absolute;
+  top:5px;
+  left:4%;
+}
+
+.outerofsearch{
+  display:inline-block;
+  width:20%;
+  height:43px;
+  background-color: #484848;
+  position: absolute;
+  top:40px;
+  left:83%;
+  transform: translate(-50%,-50%);
+  border-radius: 40px;
+}
+
+.searchicon{
+  position: absolute;
+  top:5px;
+  left:85%;
+  top:7px;
+  font-size: 28px;
+  color:#CDCDCD;
+}
+
+
+body{
+  background:white;
+}
+
+
+
+
+
+
+
+.backgroundimgsec{
+  width:100%;
+  height:1000px;
+  background-image: url('../Media/Photos/Schoolpic4.png');
+   background-size: cover;
+}
+
+
+
+
+.googlesearch{
+  display: inline-block;
+  padding: 3px;
+  margin: 2px;
+  width: 40%;
+  height: 40px;
+  position: absolute;
+  top:150px;
+  left:30%;
+  background: white;
+  border-radius: 40px;
+}
+
+.googlesearchtextbox{
+  width:87%;
+  height: 25px;
+  position: absolute;
+  top:9px;
+  left:12px;
+  color:black;
+  background-color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+.searchbutton{
+  position: absolute;
+  top:3px;
+  left:91%;
+  width:40px;
+  height:40px;
+  border-radius: 40px;
+  color:gray;
+  font-size: 20px;
+  background-color: white;
+  border:none;
+  outline: none;
+}
+
+.searchbutton:hover{
+  background-color: black;
+}
+
+
+
+
+
+
+
+.welcomebox{
+  display:inline-block;
+  width:50%;
+  height:150px;
+  padding:5px;
+  position: absolute;
+  top:250px;
+  left:25%;
+  background-color: #000000A1;
+  border:2px solid #000000C9;
+
+}
+
+
+.welcome{
+  display:inline-block;
+  font-size: 55px;
+  font-family: kalam;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  top:-50px;
+  left:6%;
+
+
+}
+
+.dashboard{
+  display:inline-block;
+  font-size: 40px;
+  font-family: kalam;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  top:17px;
+  left:55%;
+}
+
+.user{
+  display:inline-block;
+  font-size: 40px;
+  font-family: kalam;
+  font-weight: bold;
+  color:white;
+  position: absolute;
+  top:50px;
+  left:32%;
+}
+
+
+
+/*Section 2 starts from here.......*/
+
+
+
+
+.section2{
+  background:#5EE8EC;
+  width:100%;
+  height:1000px;
+}
+
+
+
+
+.quizheading{
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold ;
+  font-family: kalam;
+  position: absolute;
+  top:1200px;
+  left:30%;
+}
+
+.quizquestion{
+  font-size: 30px;
+  font-style: normal;
+  font-family: kalam;
+  color:black;
+  position: absolute;
+  top:1350px;
+  left:15%;
+}
+
+.optiona{
+  width:280px;
+  height:40px;
+  position: absolute;
+  top:1510px;
+  left:10%;
+  font-size: 19px;
+  font-family: kalam;
+  background: #CD03FAC9;
+  border:3px gray;
+  border-radius: 40px;
+  border-style: outset ;
+  outline: none;
+  color:white;
+}
+
+.optiona:hover{
+  margin-top:4px;
+}
+
+
+
+.optionb{
+  width:280px;
+  height:40px;
+  position: absolute;
+  top:1510px;
+  left:35%;
+  font-size: 19px;
+  font-family: kalam;
+  background: #CD03FAC9;
+  border:3px gray;
+  border-radius: 40px;
+  border-style: outset ;
+  outline: none;
+  color:white;
+}
+
+.optionb:hover{
+  margin-top:4px;
+}
+
+
+
+.optionc{
+  width:280px;
+  height:40px;
+  position: absolute;
+  top:1600px;
+  left:10%;
+  font-size: 19px;
+  font-family: kalam;
+  background: #CD03FAC9;
+  border:3px gray;
+  border-radius: 40px;
+  border-style: outset ;
+  outline: none;
+  color:white;
+}
+
+.optionc:hover{
+  margin-top:4px;
+}
+
+
+
+.optiond{
+  width:280px;
+  height:40px;
+  position: absolute;
+  top:1600px;
+  left:35%;
+  font-size: 19px;
+  font-family: kalam;
+  background: #CD03FAC9;
+  border:3px gray;
+  border-radius: 40px;
+  border-style: outset ;
+  outline: none;
+  color:white;
+}
+
+.optiond:hover{
+  margin-top:4px;
+}
+
+.googlelogo{
+  position: absolute;
+  top:1460px;
+  left:58%;
+}
+
+.anstextbox{
+  position: absolute;
+  top:1500px;
+  left:10%;
+  width:40%;
+  height:200px;
+  background:#05F1AF;
+  outline:none;
+  border-radius: 10px;
+  border:3px outset gray;
+  border-style:;
+  padding:20px;
+  font-size: 13px;
+  color:black;
+}
+
+.anssubmit{
+  position: absolute;
+  top:1790px;
+  left:25%;
+  color:white;
+  background: #CD03FAC9;
+  width:10%;
+  height:40px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: kalam;
+  outline:none;
+}
+
+.anssubmit:hover{
+  margin-top: 3px;
+}
+
+.morebelowquizsec{
+  font-size: 14px;
+  position: absolute;
+  top:1745px;
+  left:140px;
+
+}
+
+
+
+
+
+/* Section 3 starts from here */
+
+
+
+
+
+
+
+
+
+
+.section3{
+  Height:1000px;
+  width:100%;
+  background:none;
+}
+
+.noticeboard{
+  display: block;
+  width:80%;
+  height:550px;
+  position: absolute;
+  top:2200px;
+  left: 10%;
+  background: green;
+  color:black;
+  border:13px gray;
+  border-style: ridge;
+
+}
+
+.Noticeheading{
+  position: absolute;
+  top:2px;
+  left:40%;
+  height:80px;
+  width:20%;
+}

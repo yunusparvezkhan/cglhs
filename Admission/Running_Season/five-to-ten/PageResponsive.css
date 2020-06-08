@@ -1,0 +1,92 @@
+@media (min-width:1400px) {
+
+
+
+  #background-img{
+    width:1380px;
+    height:800px;
+    top:20px;
+    left:50%;
+    transform:translate(-50%);
+    box-shadow: 0 0 20px 15px gray;
+  }
+  #formboxsec{
+    top:800px;
+  }
+  #the-form{
+    top:200px;
+  }
+
+
+
+  #heading-logo{
+    top:65px;
+    left:1000px;
+  }
+  #homepage-btn{
+    top:450px;
+    right:250px;
+  }
+  #admop-btn{
+    top:520px;
+    right:250px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:1300px) {
+
+
+      .heading1{
+        font-size: 40px;
+        top:55px;
+      }
+      .heading2{
+        font-size: 70px;
+        top:100px;
+      }
+      .heading-line{
+        font-size: 130px;
+      }
+
+
+
+      #heading-logo{
+        top:65px;
+        left:900px;
+      }
+      #homepage-btn{
+        top:450px;
+        right:250px;
+      }
+      #admop-btn{
+        top:520px;
+        right:250px;
+      }
+
+
+}
+
+
+
+
+@media (max-width:1200px) {
+
+
+  #heading-logo{
+    top:65px;
+    left:800px;
+  }
+
+
+
+}

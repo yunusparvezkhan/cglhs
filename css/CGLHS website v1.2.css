@@ -1,0 +1,733 @@
+
+body{
+  background: white;
+}
+
+
+
+footer{
+  margin : 0px;
+  padding : 0px ;
+  width : 100%;
+  height : 150px;
+  display : inline-block;
+  background-color : #EEEE;
+}
+
+ .logo1{
+	 display :  inline block ;
+		background-color : none ;
+		margin : 3px ;
+		padding : 2px ;
+	    float : left ;
+		height: 10% ;
+		width : 5% ;
+
+}
+
+
+.logolink {
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+		cursor : pointer;
+
+}
+
+
+
+
+ .navigationpanel{
+	      display : inline block;
+        width   : 65% ;
+		    margin : 3px;
+        padding : 2px ;
+        background-color : white ;
+        position: absolute;
+        top:0px;
+        left:20%;
+
+ }
+
+
+
+ nav ul li:hover{
+ 	background-color : none ;
+   font-size:105%;
+   color:#920AB3;
+   font-style: italic;
+ }
+
+ .button1:hover{
+   background-color : white ;
+   font-size:100%;
+   color:#FFBE1D;
+   font-style: italic;
+   border:3px solid white;
+ }
+
+
+ .button1 , .button2 , .button3 , .button4 , .button5 , .button6{
+   float   : left ;
+ 	color : black ;
+ 	font-weight:bold ;
+ 	text-align : center ;
+ 	font-size : 80% ;
+   list-style-type: none;
+   background-color: none ;
+   border:3px solid white;
+ }
+
+ .button1 {
+    width : 8% ;
+    margin : 8px ;
+    padding : 10px ;
+    border : 3px solid #FFBE1D  ;
+    display : inline block ;
+    background-color : #0A7219 ;
+    color:white;
+ }
+
+ .button2{
+    width :8% ;
+    margin : 8px ;
+    padding : 10px ;
+    border : 30px-white  ;
+ }
+
+ .button3{
+    width : 13% ;
+    margin : 8px ;
+    padding : 10px ;
+    border : 30px-white  ;
+ }
+
+ .button4{
+    width : 8% ;
+    margin : 8px ;
+    padding : 10px ;
+    border : 30px-white  ;
+ }
+
+ .button5{
+   width : 11% ;
+    margin : 08px ;
+    padding : 10px ;
+    border : 30px-white  ;
+ }
+
+ .button6{
+    width : 11% ;
+    margin : 08px ;
+    padding : 10px ;
+    border : 30px-white  ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.age {
+        display :  inline block ;
+		background-color : nonw		;
+		margin : 5px ;
+		padding : 2px ;
+	    float : Right ;
+		cursor : pointer;
+}
+
+
+
+
+.outerofage {
+        display : inline block ;
+        padding : 5px ;
+		background-color : #FFBE1D   ;
+        float : right ;
+		width : 15%
+
+}
+
+
+
+
+
+.backgroundimage1{
+
+
+        background-size: cover ;
+		background-image : url("../Media/Photos/frontbackground1.png") ;
+		background-color : #999 ;
+		width: 100%;
+		height : 1000px ;
+
+
+}
+
+
+ .Heading{
+	    margin: 5px;
+		padding: 40px;
+		border : white ;
+		width : 93% ;
+		height : 20% ;
+		text-align : center ;
+		background-color : #302E30C1 ;
+		color:      #FFBE1D      ;
+        font-family: 'Gloria Hallelujah', cursive;
+		font-size : 300% ;
+		font-weight : bold ;
+
+
+ }
+
+
+
+
+.aboutsection1{
+	    display : inline block ;
+	    background-color : #851698 ;
+		width : 80% ;
+		color : black ;
+		padding : 50px ;
+		margin : 10px ;
+
+
+}
+
+
+
+.textofas1{
+	    display : inline block ;
+		background-color : none ;
+		width : 45% ;
+		text-align : justify ;
+		color : white ;
+		padding : 5px ;
+		margin : 10px ;
+		float  : left ;
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size : 115% ;
+
+
+
+}
+
+
+.contentofas1{
+
+
+
+}
+
+
+
+
+ .asbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float :center ;
+ }
+
+ .instagramcglhs{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookcglhs{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twittercglhs{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedincglhs{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagramcglhs:hover{
+          background-color: #EEEEEE ;
+          border-radius: 30px;
+
+
+ }
+
+
+
+ .facebookcglhs:hover{
+          background-color: #EEEEEE ;
+          border-radius: 30px;
+
+ }
+
+
+
+
+ .twittercglhs:hover{
+          background-color: #EEEEEE ;
+          border-radius: 30px;
+
+ }
+
+
+
+
+ .linkedincglhs:hover{
+          background-color: #EEEEEE ;
+          border-radius: 30px;
+ }
+
+
+
+.quote1{
+	      display : block ;
+		  margin : 5px ;
+		  padding : 3px ;
+		  width : 60% ;
+		  height : 700px ;
+		  float : center ;
+		  color : black ;
+		  background-color : none ;
+
+
+}
+
+.quote1symbolx{
+		  color : black ;
+		  font-size : 140px ;
+		  float : left ;
+
+}
+
+
+
+.textofquote1{
+		  color : black ;
+		  font-size : 100px ;
+		  Font-weight: bold;
+		  float : center ;
+		  display: block ;
+		  margin: 10px ;
+		  padding :10px;
+		  width : 81% ;
+		  height : 400px ;
+		  background-color : none ;
+		  border : 5px solid black ;
+
+
+
+}
+
+
+
+
+.quote1symboly{
+		  color : black ;
+		  font-size : 140px ;
+		  float : right ;
+		  width :  8%;
+		  height : 10% ;
+		  font-weight : bold ;
+
+}
+
+
+
+
+
+.x { display : block ;
+		  background-color : #3C4196 ;
+		  color : #FFDA14 ;
+		  margin : 0px ;
+          padding : 80px ; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headmaster {
+		    display : inline-block ;
+		    background-color : #3C4196 ;
+			width      : 55% ;
+   			padding    : 5px;
+			margin     : 10px;
+			color      : #FFDA14 ;
+			float      : right;
+			font-size  : 135% ;
+			text-align : justify ; }
+
+
+
+
+ .hmbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float : right ;
+ }
+
+ .instagramhm{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookhm{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twitterhm{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedinhm{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagramhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+ .facebookhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .twitterhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .linkedinhm:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+.pressident {
+		    display : inline-block ;
+            background-color : #3C4196 ;
+			width    : 55% ;
+            padding  : 5px ;
+		    margin   : 50px ;
+		    color    : #FFDA14 ;
+		    float    : left ;
+			font-size: 135% ;
+			text-align: justify ;
+}
+
+
+
+
+ .pressidentbuttons{
+	    display : inline block ;
+		background-color : none ;
+		width : 60% ;
+		padding : 3px ;
+		margin : px ;
+		float : right ;
+ }
+
+ .instagrampressident{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+ .facebookpressident{
+	    margin : px ;
+		padding : 5px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+ }
+
+  .twitterpressident{
+ 	    margin : 5px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+
+ }
+
+ .linkedinpressident{
+	    margin : 10px ;
+		padding : px ;
+		width : 15% ;
+		float : center ;
+		background-color : transparent ;
+		border : white ;
+		float : left ;
+
+ }
+
+
+
+ .instagrampressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+ .facebookpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .twitterpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+ .linkedinpressident:hover{
+          background-color: #5B629C ;
+
+ }
+
+
+
+
+
+
+ .YouTube{
+
+
+ }
+
+
+
+ .YouTubeheading{
+	 display : inline block ;
+	 background-color : none ;
+	 margin: 3px ;
+	 padding: 2px ;
+	 width : 50% ;
+	 height : 180px;
+	 float : left ;
+
+
+ }
+
+
+
+
+
+
+ .yttext1{
+	 font-size : 80px;
+	 color : black ;
+	 font-family : Kalam;
+	 float : right ;
+
+
+
+ }
+
+
+
+ .YouTubeheadingimg{
+	 display : inline block ;
+	 background-color : none ;
+	 margin: 3px ;
+	 padding: 2px ;
+	 width : 48% ;
+	 height : 180px;
+	 float : right ;
+
+ }
+
+
+.cglhsonyt{
+	 background-color : white ;
+	 border : 1px solid white ;
+	 float : left ;
+
+ }
+
+
+
+
+.ytbuttona{
+	 background-color : green ;
+}
+
+
+ .ytbutton{
+
+	 margin:0px;
+	 padding:0px;
+	 width:25%;
+	 height:70px;
+	 background-color:black;
+	 float:center;
+	 border:1px solid white;
+ }
+
+
+
+ .YouTubebutton{
+
+	 background-color:black;
+	 float:center;
+	 width:90%;
+	 height:55px;
+	 margin: 0px;
+	 padding : 0px;
+	 border:1px solid black;
+	 float:center;
+ }
+
+ .ytbuttontextx{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:30%;
+	 height:55px ;
+	 background-color:none;
+	 float:left;
+	 font-size: 38px;
+	 color:white;
+	 font-family: kalam;
+
+
+
+
+ }
+
+ .ytbuttonimg{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:30%;
+	 height:55px ;
+	 background-color:none;
+	 float:center;
+ }
+
+ .ytbuttontexty{
+	 display:inline-block;
+	 margin:0px;
+	 padding:0px;
+	 width:40%;
+	 height:55px ;
+	 background-color:none;
+	 float:right;
+	 font-size: 35px;
+	 color:white;
+	 font-family: kalam;
+
+ }

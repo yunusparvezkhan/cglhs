@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title> CGLHS | Admission </title>
+    <link rel="stylesheet" href="admission.css">
+    <link rel="stylesheet" href="uploadFiles.css">
+    <link rel="stylesheet" href="PageResponsive.css">
+    <link rel="stylesheet" href="../../../Icons\css\all.css">
+    <script type="text/javascript" src="uploadFiles.js"></script>
+    <script type="text/javascript" src="uploadFiles2.js"></script>
+    <script type="text/javascript" src="adm_functions.js"></script>
+    <script type="text/javascript" src="adm_validation.js"></script>
+    <script type="text/javascript" src="testing.js"></script>
+  </head>
+  <body>
+
+
+        <div id="background-img">
+          <h1 class="heading-line">|</h1>
+          <h1 class="heading heading1">CHATRA GANESHLAL</h1>
+          <h1 class="heading heading2">HIGH SCHOOL</h1>
+
+
+                  <img src="../../../Media/Logos/adminrunses.png" id="heading-logo"/>
+
+          <a href="../../../index.html"><button type="button" id="homepage-btn">
+                    <i class="fas fa-home"></i>Back to home
+                </button></a>
+
+          <a href="../../../admission_options.html"><button type="button" id="admop-btn">
+                  <i class="fas fa-long-arrow-alt-left"></i> Admission Options
+                </button></a>
+
+          </div>
+
+
+
+      <div id="formboxsec">
+        <h1 id="the-form">The <div style="color:red;display:inline-block;">form </div> for <div style="color:green;display:inline-block;">Admission</div></h1>
+        <div class="box">
+
+
+                            <form class="form" action="../../../index.html" method="post">
+
+                              <h4 class="box-heading pupil-details"> Details of the Pupil:- </h4>
+            <h4 class="lebel lbl-1">Pupil's name:- </h4>
+                <input type="text" class="input firstname" placeholder="First Name"/>
+                <input type="text" class="input secondname" placeholder="Second Name"/>
+                <input type="text" class="input lastname" placeholder="Last Name"/>
+                <h4 class="lebel lbl-2">Pupil's address:- </h4>
+
+
+
+
+
+
+
+
+
+
+              <input type="checkbox" onclick="pupilisindian()" id="indian" class="checkbox"/> <p id="iamindian">I am an Indian </p>
+                <select class="input pupil-dist" placeholder="District">
+                    <option class="pupil-dist-option" value="">Select District</option>
+                    <option class="pupil-dist-option" value="Alipurduar">Alipurduar</option>
+                    <option class="pupil-dist-option" value="Bankura">Bankura</option>
+                    <option class="pupil-dist-option" value="Paschim Bardhaman">Paschim Bardhaman</option>
+                    <option class="pupil-dist-option" value="Purba Bardhaman">Purba Bardhaman</option>
+                    <option class="pupil-dist-option" value="Birbhum">Birbhum</option>
+                    <option class="pupil-dist-option" value="Cooch Behar">Cooch Behar</option>
+                    <option class="pupil-dist-option" value="Darjeeling">Darjeeling</option>
+                    <option class="pupil-dist-option" value="Uttar Dinajpur">Uttar Dinajpur</option>
+                    <option class="pupil-dist-option" value="Uttar Dinajpur">Uttar Dinajpur</option>
+                    <option class="pupil-dist-option" value="Hooghly">Hooghly</option>
+                    <option class="pupil-dist-option" value="Howrah">Howrah</option>
+                    <option class="pupil-dist-option" value="Jalpaiguri">Jalpaiguri</option>
+                    <option class="pupil-dist-option" value="Jhargram">Jhargram</option>
+                    <option class="pupil-dist-option" value="Kolkata">Kolkata</option>
+                    <option class="pupil-dist-option" value="Kalimpong">Kalimpong</option>
+                    <option class="pupil-dist-option" value="Malda">Malda</option>
+                    <option class="pupil-dist-option" value="Paschim Medinipur">Paschim Medinipur</option>
+                    <option class="pupil-dist-option" value="Purba Medinipur">Purba Medinipur</option>
+                    <option class="pupil-dist-option" value="Murshidabad">Murshidabad</option>
+                    <option class="pupil-dist-option" value="Nadia">Nadia</option>
+                    <option class="pupil-dist-option" value="North 24 Parganas">North 24 Parganas</option>
+                    <option class="pupil-dist-option" value="South 24 Parganas">South 24 Parganas</option>
+                    <option class="pupil-dist-option" value="Purulia">Purulia</option>
+
+                  </select>
+
+                <input type="text" class="input pupil-po" placeholder="Post Office"/>
+                <input type="text" class="input pupil-pin" placeholder="PIN Code"/>
+                <input type="text" class="input pupil-village" placeholder="Village"/>
+
+                <h4 class="lebel lbl-3">Pupil's Gender:- </h4>
+                  <input type="checkbox" onclick="pupilismale()" id="pupil-gender-m" class="checkbox"/>
+                              <p id="pupilmaletext">Male</p>
+                  <input type="checkbox" onclick="pupilisfemale()" id="pupil-gender-f" class="checkbox"/>
+                              <p id="pupilfemaletext">Female</p>
+
+
+                <h4 class="lebel lbl-4">Social Category:- </h4>
+                    <input type="radio" name="social-category" id="general" value="general"/>
+                      <p id="general-text">General</p>
+                    <input type="radio" name="social-category" id="sc" value="sc"/>
+                      <p id="sc-text">SC</p>
+                    <input type="radio" name="social-category" id="st" value="st"/>
+                      <p id="st-text">ST</p>
+                    <input type="radio" name="social-category" id="bpl" value="bpl"/>
+                      <p id="bpl-text">BPL</p>
+                    <input type="radio" name="social-category" id="others" value="others"/>
+                      <p id="others-text">Others</p>
+
+
+                <h4 class="lebel lbl-5">Date of Birth:- </h4>
+                      <input type="date" name="dob" class="input" id="dob">
+                <h4 class="lebel lbl-6">ID profs:- </h4>
+                      <input type="text" name="aadharid" maxlength="12" class="input" id="aadhar-id" required placeholder="Aadhar ID (Required)"/>
+                      <input type="text" name="panid" class="input" id="pan-id" required placeholder="Pan ID (If have)"/>
+                      <input type="text" name="voterid" class="input" id="voter-id" required placeholder="Voter ID (If have)"/>
+                        <a onclick="aadhar_enrollment()"><p id="aadhar-enrollment-link">I have Aadhar enrollment number (click here)</p></a>
+                        <a onclick="no_aadharcard()"><p id="no-aadharcard-link">I don't have Aadhar ID or even a enrollment number (click here)</p></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <h4 class="lebel lbl-7">Bank account details:- </h4>
+
+                    <!-- <select class="input" id="select-bank">
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+                      <option name="AlahabadBank" value="Alahabad Bank">Alahabad Bank</option>
+
+
+
+
+
+                    </select> -->
+
+
+                          <input type="text" class="input" id="bank-name" placeholder="Name of the Bank"/>
+                          <input type="text" class="input" id="bank-branch-name" placeholder="Name of the Branch"/>
+                          <input type="text" class="input" id="bank-acc-num" maxlength="11" placeholder="Account Number"/>
+                          <input type="text" class="input" id="bank-cif-num" placeholder="CIF Number"/>
+                          <input type="text" class="input" id="bank-ifsc" placeholder="IFS Code"/>
+
+
+
+                <h4 class="lebel lbl-8"><div style="font-style:italic;display:inline;">The class,</div> to which the pupil seeks admission:- </h4>
+                          <input type="radio" id="class-v" name="class" value="Five"/><p id="class5">V</p>
+                          <input type="radio" id="class-vi" name="class" value="Six"/><p id="class6">VI</p>
+                          <input type="radio" id="class-vii" name="class" value="Seven"/><p id="class7">VII</p>
+                          <input type="radio" id="class-viii" name="class" value="Eight"/><p id="class8">VIII</p>
+                          <input type="radio" id="class-ix" name="class" value="Nine"/><p id="class9">IX</p>
+                          <input type="radio" id="class-x" name="class" value="Ten"/><p id="class10">X</p>
+
+
+                <h4 class="lebel lbl-9"> Contact details of the Pupil:- </h4>
+                          <input type="text" class="input" id="pupil-phnum" name="pupil-phnum" placeholder="Phone Number">
+                          <input type="text" class="input" id="pupil-email" name="pupil-email" placeholder="Email Address(Optional)">
+		                  <button type="button" id="docs-form-popup-btn" onclick="docs_form_popup()">Upload documents</button>
+
+
+                          <div id="parentsdetails">
+        <h4 class="box-heading parent-details"> Details of parents:- </h4>
+            <h4 class="lebel lbl-x">Father's details:-</h4>
+                <input type="text" class="input father" placeholder="Full name"/>
+                <input type="text" class="input father-occupation" placeholder="Occupation"/>
+                <input type="text" class="input father-phnum" placeholder="Phone Number"/>
+
+
+            <h4 class="lebel lbl-y">Mother's details:-</h4>
+                <input type="text" class="input mother" placeholder="Full name"/>
+                <input type="text" class="input mother-occupation" placeholder="Occupation"/>
+                <input type="text" class="input mother-phnum" placeholder="Phone Number"/>
+
+
+            <h4 class="lebel lbl-z">Parent's Address :-</h4>
+                <input type="text" class="input village" placeholder="Village"/>
+                <input type="text" class="input postoffice" placeholder="Post Office"/>
+                <input type="text" class="input pin" placeholder="PIN Code"/>
+                <input type="text" class="input dist" placeholder="District"/>
+                <p id="donthaveparentdetails"> If you don't have parent's details then </p>
+                <select name="reasonofanothergrdn" id="select-reason">
+                  <option onclick="autohide()" value=""> Choose a reason </option>
+                  <option onclick="autohide()" value="Pupil don's live with them"> I don't live with my parents </option>
+                  <option onclick="autohide()" value="Pupil don's live with father"> I don't live with my father </option>
+                  <option onclick="autohide()" value="Pupil don's live with mother"> I don't live with my mother </option>
+                  <option onclick="autohide()" value="Pupil lives with relatives"> I live with my relatives </option>
+                  <option onclick="autohide()" value="Pupil lives with Grandfather and/or Grandmother"> I live with my Grandfather and/or Grandmother </option>
+                </select>
+                <p id="primary-guardian">Who is your primary guardian  </p>
+                    <input type="checkbox" id="pri-grdn-father" onclick="father()" class="checkbox  pri-grdn-father"><p id="text-father">Father</p>
+                    <input type="checkbox" id="pri-grdn-mother" onclick="mother()" class="checkbox  pri-grdn-mother"><p id="text-mother">Mother</p>
+                <p id="different-guardian">If your guardian is someone else than your parents</p>
+                        <button type="button" id="diff-grdn-details-sub-btn" onclick="submitdetailsofguardian()"> Fill their details
+
+                                  </div>
+
+
+
+
+
+
+
+
+
+
+
+      <div id="hiden-guardian-details-box">
+          <input type="text" name="grdn-name" id="guardian-name1"  class="hidinput">
+          <input type="text" name="grdn-occupation" id="guardian-occupation1" class="hidinput"/>
+          <input type="text" name="grdn-vill" id="guardian-village1" class="hidinput"/>
+          <input type="text" name="grdn-po" id="guardian-po1" class="hidinput"/>
+          <input type="text" name="grdn-pin" id="guardian-pin1" class="hidinput"/>
+          <input type="text" name="grdn-dist" id="guardian-dist1" class="hidinput"/>
+          <input type="text" name="grdn-phnum" id="guardian-phnum1" class="hidinput"/>
+          <input type="text" name="grdn-email" id="guardian-email1" class="hidinput"/>
+          <input type="text" name="grdn-relationship" id="guardian-relationship1" class="hidinput"/>
+    </div>
+          <input type="text" name="aadhar-enrollment-num" id="aadhar-enrollment-num1" class="hidinput"/>
+          <input type="text" name="pupil-sex" id="pupil-gender" class="hidinput"/>
+          <input type="text" name="grdn-sex" id="grdn-gender" class="hidinput"/>
+          <input type="text" name="pri-grdn" id="pri-grdn" class="hidinput"/>
+
+
+          <input type="file" name="aadharcard_file" onchange="previewFile()" class="hidinput"  id="aadharcardupload"/>
+          <input type="file" name="birthCirtificate_file" onchange="previewFile2()" class="hidinput"  id="birth-cirtificate-upload"/>
+          <input type="file" name="marksheet_file" onchange="previewFile3()" class="hidinput"  id="marksheet-upload"/>
+          <input type="file" name="income_cirtificate_file" onchange="previewFile4()" class="hidinput"  id="income-cirtificate-upload"/>
+          <input type="file" name="bank_passbook_file" onchange="previewFile5()" class="hidinput"  id="bank-passbook-upload"/>
+
+
+
+
+
+
+
+
+
+
+
+
+                                  <button type="submit" style="position:absolute;" name="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <!-- The popup boxes -->
+
+
+                              <!-- UPLOAD FILES -->
+
+
+
+
+
+
+
+                          <div id="screen-hider0"></div>
+
+
+    <div id="popup-box0-1">
+      <div id="container0" class="container" style="display:none;">
+        <h1 id="upload-files-heading"></h1>
+
+
+
+
+
+          <div class="uploadsec" id="uploadsec1" onclick="here()">
+            <h3 id="chooseafile-text1" class="chooseafile-text"> 1 </h3>
+             <img src="" id="blah" alt="Your Aadhar Card" style="display:none;"/>
+             <p onclick="here()" class="clickheretochange" id="clickheretochange1">Click here to change your file</p>
+            </div>
+
+                    <div class="uploadsec" id="uploadsec2" onclick="here2()">
+                      <h3 id="chooseafile-text2" class="chooseafile-text"> 2 </h3>
+                       <img src="" id="blah2" alt="Your Birth Cirtificate" style="display:none;"/>
+                       <p onclick="here2()" class="clickheretochange" id="clickheretochange2">Click here to change your file</p>
+                      </div>
+
+                              <div class="uploadsec" id="uploadsec3" onclick="here3()">
+                                <h3 id="chooseafile-text3" class="chooseafile-text"> 3 </h3>
+                                 <img src="" id="blah3" alt="Your Previous Year Marksheet" style="display:none;"/>
+                                 <p onclick="here3()" class="clickheretochange" id="clickheretochange3">Click here to change your file</p>
+                                </div>
+
+                                      <div class="uploadsec" id="uploadsec4" onclick="here4()">
+                                        <h3 id="chooseafile-text4" class="chooseafile-text"> 4 </h3>
+                                         <img src="" id="blah4" alt="Your Guardian's Income Cirtificate" style="display:none;"/>
+                                         <p onclick="here4()" class="clickheretochange" id="clickheretochange4">Click here to change your file</p>
+                                        </div>
+
+                                                  <div class="uploadsec" id="uploadsec5" onclick="here5()">
+                                                    <h3 id="chooseafile-text5" class="chooseafile-text"> 5 </h3>
+                                                     <img src="" id="blah5" alt="Your Bank passbook front page" style="display:none;"/>
+                                                     <p onclick="here5()" class="clickheretochange" id="clickheretochange5">Click here to change your file</p>
+                                                    </div>
+
+
+
+
+
+                <button type="button" class="files-next" id="files_next_1" onclick="files_next_1()">Next1</button>
+                <button type="button" class="files-next" id="files_next_2" onclick="files_next_2()">Next2</button>
+                <button type="button" class="files-next" id="files_next_3" onclick="files_next_3()">Next3</button>
+                <button type="button" class="files-next" id="files_next_4" onclick="files_next_4()">Next4</button>
+                <button type="button" class="files-next" id="files_next_5" onclick="files_done()">Done</button>
+
+                <button type="button" id="files_cancel" onclick="file_upload_cancel()">Cancel</button>
+        </div>
+
+
+
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+                        <div id="screen-hider0-1"></div>
+                          <div id="file-upload-cancel-box">
+                            <div id="container-1" style="display:none;">
+                             <h3 id="file-upload-cancel-box-text1"> Are you sure to cancel?? </h3>
+                             <h3 id="file-upload-cancel-box-text2"> Your files will not be deleted <br> You must have to select your files! </h3>
+                             <button type="button" id="file-upload-cancel-yes-btn" onclick="file_upload_cancel_cnfrm()">Yes</button>
+                             <button type="button" id="file-upload-cancel-no-btn" onclick="file_upload_cancel_not()">No</button>
+                          </div>
+                        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="screen-hider"></div>
+                  <div id="popup-box1">
+                    <div id="different-guardian-box">
+                        <h1 id="diff-grdn-box-heading"> Fill your guardian's details </h1>
+                      <p class="guardianname">Name:-</p>
+                        <input type="text" id="guardian-name2"  class="input guardian-name2" placeholder="Full name"/>
+                        <span class="span2" id="war-guardian-name2">Please fill the Name</span>
+
+                      <p class="guardiangender">Sex:-</p>
+                        <input type="checkbox" onclick="gurdianismale()" id="guardian-gender2-m" class="checkbox guardian-gender2-m"/><p class="guardian-male">Male</p>
+                        <input type="checkbox" onclick="gurdianisfemale()" id="guardian-gender2-f" class="checkbox guardian-gender2-f"/><p class="guardian-female">Female</p>
+                        <span class="span2" id="war-guardian-gender2">Please choose the gender</span>
+
+						<input type="text" id="guardian-occupation2" class="input guardian-occupation2" placeholder="Occupation"/>
+                        <span class="span2" id="war-guardian-occupation2">Please fill guardian's occupation</span>
+
+
+
+                      <p class="guardianaddress">Address:-</p>
+                        <input type="text" id="guardian-village2" class="input guardian-village2"  placeholder="Village/City"/>
+                        <span class="span2" id="war-guardian-village2">Please fill the Village or City</span>
+
+                        <input type="text" id="guardian-po2" class="input guardian-po2"  placeholder="Post Office"/>
+                        <span class="span2" id="war-guardian-po2">Please fill the Post Ofiice name</span>
+
+                        <input type="text" id="guardian-pin2" class="input guardian-pin2"  placeholder="Pin Code"/>
+                        <span class="span2" id="war-guardian-pin2">Please fill your PIN or Zip code</span>
+
+                        <input type="text" id="guardian-dist2" class="input guardian-dist2"  placeholder="District"/>
+                        <span class="span2" id="war-guardian-dist2">Please fill your District</span>
+
+                      <p class="guardiancontact">Contact Info:-</p>
+                        <input type="text" id="guardian-phnum2" class="input guardian-phnum2"  placeholder="Phone Number"/>
+                        <span class="span2" id="war-guardian-phnum2">Please fill guardian's phone number</span>
+                        <input type="text" id="guardian-email2" class="input guardian-email2"  placeholder="Email address(optional)"/>
+
+                      <p class="relationshipwithpupil">Relationship with the Pupil:-</p>
+                        <input type="text" id="guardian-relationship2" class="input relationship2"  placeholder="Eg: Mother; Father; Husband"/>
+                        <span class="span2" id="war-guardian-relationship2">Please mention guardian's relationship with pupil</span>
+
+
+                        <button type="button" class="done-btn" onclick="done()"> Done </button>
+                        <button type="button" class="cancel-btn" onclick="cancel()"> Cancel </button>
+
+                    </div>
+                  </div>
+
+
+                  <div id="screen-hider2"></div>
+                      <div id="popup-box2">
+                        <div id="pri-gur-checkbox-popup-box">
+                        <p id="primary-guardian2">Then select who is your primary guardian...  </p>
+                            <input type="checkbox" id="pri-grdn-father2" onclick="father()" class="checkbox  pri-grdn-father2"><p id="text-father2">Father</p>
+                            <input type="checkbox" id="pri-grdn-mother2" onclick="mother()" class="checkbox  pri-grdn-mother2"><p id="text-mother2">Mother</p>
+                              <span id="war-pri-grdn2"> Please select the primary gurdian </span>
+                            <button id="checkbox-done-btn" onclick="prigurcheckboxpopupdone()"> Done </button>
+
+                          </div>
+
+                          <div id="aadhar-enrollment-box">
+                              <h3 id="a-e-box-header">Then fill your Aadhar enrollment number</h3>
+                              <input type="text" maxlength="12" id="aadhar-enrollment-num2" class="input" placeholder="Fill here"/>
+                                   <p id="war-aadhar-enrollment-num">Please enter the Aadhar enrollment Number</p>
+                              <button type="button" onclick="a_e_num_done()" id="a-e-num-done-btn">Done</button>
+                              <button type="button" onclick="a_e_num_cancel()" id="a-e-num-cancel-btn">Cancel</button>
+                          </div>
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
